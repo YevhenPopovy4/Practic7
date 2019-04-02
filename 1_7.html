@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+    function GetAOU(){
+    let row = prompt("Enter simbols","");
+    let arr1 = row.split('');
+     //var text =["a","b","s","d","a","f","d","s","a","y","u"];
+     var hol =[];
+        for(var i=0;i<arr1.length;i++){
+            if(
+            arr1[i]=="a"//||arr1[i]=="e"||arr1[i]=="i"||arr1[i]=="o"||arr1[i]=="u"||arr1[i]=="y"
+            )
+        
+            hol.push(arr1[i]);
+        }
+        document.write(hol);
+    }
+    GetAOU();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

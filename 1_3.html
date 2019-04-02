@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+    a  = [600,300,800,3000,1700,3450];
+    function PR (x,i,arr){
+        if(x<1000){
+            return x = x+(x*0.2);
+        }
+        else{
+            return x = x-(x*0.3);
+        }
+    }
+    var Narr = a.map(PR)
+    document.write(Narr);
+    
+    
+    
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
